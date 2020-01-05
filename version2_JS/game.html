@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>quizz play</title>
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="game.css">
+  </head>
+
+  <body>
+
+    <div class="">
+      Score :
+    </div>
+    <div class="">
+
+    </div>
+
+    <div class="container">
+      <div id="game" class="justify-center flex-column">
+        <div id="progressBar">
+          <div id="progressBarFull"></div>
+        </div>
+        <div id="count">
+          <div id="count-item">
+            <p class="count-prefix">
+              Question :
+            </p>
+            <h2 class="count-text" id="qu-counter"></h2>
+          </div>
+          <div id="count-item">
+            <p class="count-prefix">
+              Score :
+            </p>
+            <h2 class="count-text" id="score"></h2>
+          </div>
+        </div>
+
+        <h2 id="question" class="text-center"></h2>
+
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="4"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="1"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="2"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="3"></p>
+        </div>
+      </div>
+    </div>
+
+  <script type="text/javascript" src="game.js"></script>
+  </body>
+</html>
